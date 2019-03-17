@@ -31,3 +31,10 @@ rack (2.0.6) lib/rack/handler/webrick.rb:86:in `service'
   Rendering /home/alexander/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /home/alexander/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.0ms)
   Rendered /home/alexander/.rvm/gems/ruby-2.5.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.7ms)
+Started GET "/hello_world" for 127.0.0.1 at 2019-03-17 11:33:46 -0400
+Processing by HwController#hello_world as HTML
+  Rendering hw/hello_world.html.erb within layouts/application
+  Rendered hw/hello_world.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 139ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
